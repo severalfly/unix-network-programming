@@ -34,6 +34,7 @@ int main(int argc, char const *argv[])
     {
         err_sys("connect error");
     }
+    fputs("aaab", stdout);
 
     while( (n=read(sockfd, recvline, MAXLINE)) >0 )
     {
