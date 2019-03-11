@@ -3,4 +3,4 @@ project(testPro)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(testPro main.cpp daytimeclient.c)
+add_executable(testPro main.cpp daytimeclient.c daytimetcpsrv.c)
