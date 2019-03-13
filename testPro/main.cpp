@@ -1,6 +1,9 @@
 #include <iostream>
 
-int main111() {
+int main() {
     std::cout << "Hello, World!" << std::endl;
+    if (1) {
+        std::cout <<"yes" <<std::endl;
+    }
     return 0;
 }
